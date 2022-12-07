@@ -1,0 +1,57 @@
+.main {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  .card {
+    width: 350px;
+    height: 230px;
+    border: 1px solid $border;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: 1024px) {
+      margin: 0 60px;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 300px;
+    }
+    
+    &--cyan {
+      border-top: 4px solid $cyan;
+    }
+
+    &--red {
+      border-top: 4px solid $red;
+    }
+    &--orange {
+      border-top: 4px solid $orange;
+    }
+    &--blue {
+      border-top: 4px solid $blue;
+    }
+
+    &__icon {
+      margin-top: 30px;
+      align-self: flex-end;
+    }
+  }
+
+  .center-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
