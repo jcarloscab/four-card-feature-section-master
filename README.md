@@ -26,8 +26,8 @@ los Usuarios deben ver de forma óptima la página independientemente del dispos
 
 ### Links
 
-- Solución URL: [Solución]()
-- Live Site URL: [Site]()
+- Solución URL: [Solución](https://www.frontendmentor.io/solutions/four-card-feature-section-IDa1HujZs6)
+- Live Site URL: [Site](https://jcarloscab.github.io/four-card-feature-section-master/)
 
 ## Mi Proceso
 
